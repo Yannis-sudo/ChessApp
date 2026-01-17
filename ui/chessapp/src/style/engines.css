@@ -1,0 +1,92 @@
+.engines-div {
+    height: 40vh;
+    width: 100%;
+    background-color: rgb(0, 127, 255, 0.1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.full-engines-div{
+    height: 50vh;
+    width: 80%;
+    margin-top: 15vh;
+    margin-left: 10%;
+}
+
+.play-engines-headline{
+    height: 5vh;
+    margin-left: 8px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.engine-config-div {
+    height: 25vh;
+    background-color: rgba(0, 127, 250, 0.1);
+    display: flex;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.play-with {
+    width: 100px;
+    height: 32px;
+    border: none;
+    font-family: 'Quicksand';
+    font-size: 1rem;
+    margin: 32px;
+}
+
+.play-with-black {
+    background-color: black;
+    border-radius: 0px 4px 4px 0px;
+    color: white;
+    margin-left: 0;
+}
+
+.play-with-white {
+    background-color: white;
+    border-radius: 4px 0px 0px 4px;
+    color: black;
+    margin-right: 0;
+}
+
+.play-with-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fen-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fen-input {
+    width: 200px;
+    height: 32px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 2px #000;
+    outline: none;
+    font-family: 'Quicksand';
+    font-size: 1rem;
+    color: white;
+}
+
+label {
+    font-family: 'Quicksand';
+    font-size: 1rem;
+    color: white;
+    width: 200px;
+    height: 24px;
+}
