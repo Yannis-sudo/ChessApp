@@ -1,0 +1,142 @@
+# Betriebssystem
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# -------------------------
+# Python
+# -------------------------
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.venv/
+.ENV/
+env.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+eggs/
+parts/
+sdist/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
+
+# Mypy / Pyright
+.mypy_cache/
+.pyright/
+
+# Pipenv / Poetry helpers (lockfiles should NOT be ignored)
+# Pipfile.lock and poetry.lock SHOULD be committed
+pip-selfcheck.json
+
+# -------------------------
+# Node / React
+# -------------------------
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build / production bundles (Create React App / generic)
+build/
+dist/
+out/
+public/build/
+
+# Next.js / other frameworks (falls relevant)
+.next/
+.vercel/
+
+# Debug / logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnp.*
+
+# Env files (local secrets)
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# -------------------------
+# Editor / IDE
+# -------------------------
+.vscode/
+!.vscode/extensions.json  # optional: keep recommended extensions file
+.idea/
+*.iml
+
+# -------------------------
+# Misc / binaries
+# -------------------------
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dylib
+*.dll
+*.exe
+*.o
+*.obj
+*.class
+*.jar
+
+# Database / runtime files
+*.sqlite3
+*.db
+
+# Temporary / swap / backup
+*~
+*.swp
+*.tmp
+*.bak
+
+# Docker / container
+docker-compose.override.yml
+
+# Secrets (additional)
+.secrets/
+keys/
+
+
+
+# Ignoriere node_modules in beliebiger Tiefe
+node_modules/
+
+# Ignoriere build-Verzeichnisse überall
+build/
+dist/
+
+# Python-typisches
+__pycache__/
+*.py[cod]
+.venv/
+env/
+
+# VS Code (global für das Repo)
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
