@@ -21,12 +21,6 @@ def read():
 
 def getbestmove(FEN):
     depht = 2
-    send("isready")
-    while True:
-        line = engine.stdout.readline().strip()
-        if (line.startswith("readyok")):
-            print(line);
-        break
     send("position " + FEN)
     send("depht " + str(depht))
     send("go")
